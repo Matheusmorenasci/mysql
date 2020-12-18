@@ -35,4 +35,4 @@ LEFT JOIN model AS mo
 ON br.code = mo.brand_code
 GROUP BY br.name
 
-DELETE FROM brand WHERE codigo = 4;
+DELETE FROM brand WHERE code = 4;
